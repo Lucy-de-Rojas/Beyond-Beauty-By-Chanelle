@@ -20,6 +20,9 @@ import Menu from '@lucyderojas/menu13-next/dist/Menu';
 export default function LogoAndMenu() {
     const router = useRouter();
 
+    // navigation:
+    const navigationClass = ".navigationWrapper";
+
 
 
 
@@ -56,9 +59,17 @@ export default function LogoAndMenu() {
             console.log('open');
 
             let color = 'pink';
+            console.log('is open')
 
 
-            document.querySelector('.logoAndMenu_navigation__p_YgD').style.transform = 'translateX(-150%)';
+
+
+
+            // slide in to hide menu: 🟥
+            document.querySelector(".navigationWrapper").style.transform = 'translateX(-150%)';
+
+
+
 
 
             //coloring the burger menu bars:
@@ -77,14 +88,12 @@ export default function LogoAndMenu() {
             let color = 'slategrey';
 
 
-            document.querySelector('.logoAndMenu_navigation__p_YgD').style.transform = 'translateX(0%)';
+            // slide out to show menu:  🟥
+            // document.querySelector(".navigationWrapper").style.transform = 'translateX(0%)';
 
 
 
             // change color of burger menu:
-
-
-
             for(let i=0;i<=2;i++){
                 document.querySelector('.hamburger-react').childNodes[i].style.background = color;
 
@@ -108,7 +117,7 @@ export default function LogoAndMenu() {
 
 <div className={styles.logoAndMenuWrapper}>
 
-
+{/* LOGO: */}
 <div className={styles.logoWrapper}>
 <Link href='/'>
         <Image
@@ -142,10 +151,13 @@ export default function LogoAndMenu() {
 
 
 
+
+
+
 {/* menu: */}
 <div className={styles.navigationWrapper}>
-
         <nav className={styles.navigation}>
+
 
         <Menu
             pages={["home","about","contact","recommendations"]}
