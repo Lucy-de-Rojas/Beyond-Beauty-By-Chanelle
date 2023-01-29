@@ -66,7 +66,7 @@ export default function LogoAndMenu() {
 
 
             // slide in to hide menu: 🟥
-            document.querySelector(".navigationWrapper").style.transform = 'translateX(-150%)';
+            document.querySelector(".logoAndMenu_navigation___ZsQY").style.transform = 'translateX(-150%)';
 
 
 
@@ -89,7 +89,7 @@ export default function LogoAndMenu() {
 
 
             // slide out to show menu:  🟥
-            // document.querySelector(".navigationWrapper").style.transform = 'translateX(0%)';
+            document.querySelector(".logoAndMenu_navigation___ZsQY").style.transform = 'translateX(0%)';
 
 
 
@@ -147,7 +147,6 @@ export default function LogoAndMenu() {
 
             /></div>
 </div>   {/*end of:  logoAndMenuWrapper */}
-
 
 
 

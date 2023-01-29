@@ -55,7 +55,7 @@
 
 
 
-
+/* 🟥 */
 .navigationWrapper {
     position: relative;
     /* background-color: rgb(226, 67, 19); */
@@ -67,7 +67,7 @@
 
 
 
-
+/* 🟥 */
 .navigation {
     display: flex;
     flex-direction: column;
@@ -78,6 +78,8 @@
     width: 100%;
     /* padding: 30px; */
 
+
+    /* 🟥 */
     transform: translateX(-150%);
 
     /* transition: all 0.8s ease-in-out; */
