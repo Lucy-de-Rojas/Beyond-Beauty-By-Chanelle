@@ -16,7 +16,9 @@ export default function Layout({children}) {
 
 
 
-return (<div>
+return (<div style={{
+    paddingBottom: '100px',
+}}>
     <Head>
     <link rel="icon" href="/media/logos/FaviconChanelle.ico" />
          <meta name="viewport" content="width=device-width, initial-scale=1" />
