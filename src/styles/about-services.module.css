@@ -31,6 +31,19 @@
 
 
 
+/* forsmaller screen: */
+@media only screen and (max-width: 445px)  {
+
+    .compWrapper {
+        width: 30%;
+        /* background-color: red; */
+
+    }
+
+}
+
+
+
 
 
 
