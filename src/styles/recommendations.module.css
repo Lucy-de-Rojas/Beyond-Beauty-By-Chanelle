@@ -57,3 +57,19 @@
     margin: 20px 0;
     width: 45%;
 }
+
+
+
+
+/* for smaller screen: */
+@media only screen and (max-width: 445px)  {
+
+    .columnsWrapper {
+        flex-direction: column;
+    }
+
+.column {
+    width: 95%;
+}
+
+}
