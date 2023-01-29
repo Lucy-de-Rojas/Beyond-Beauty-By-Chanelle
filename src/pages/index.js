@@ -92,6 +92,7 @@ export default function Home() {
 
           <p style={{
             width: '70%',
+            lineHeight: '150%',
             // backgroundColor: 'pink',
           }}>
 
