@@ -23,7 +23,9 @@ export default function Recommendations() {
 
     return (
             <Layout>
+
 <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait8.jpg' />
+
 
 
 

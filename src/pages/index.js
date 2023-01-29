@@ -47,15 +47,16 @@ export default function Home() {
                 />
 
 
+<h1>Beauty, cosmetic<br /> <span style={{fontFamily: 'mainTHIN',}}>&</span> personal care</h1>
 
 
 
 
 
-      <Header1
-            text='Beauty, cosmetic & personal care'
-            color='white'
-            />
+
+
+
+
 
       <TwoComponents>
 
