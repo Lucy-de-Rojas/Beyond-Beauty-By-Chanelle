@@ -1,0 +1,17 @@
+.header2 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+.servicesWrapper {
+    /* background-color: red; */
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

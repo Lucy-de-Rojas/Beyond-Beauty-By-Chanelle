@@ -16,16 +16,16 @@ export default function AboutServices({imageSrc, title}) {
 
 
 
-<div className={styles.imageWrapper}>
 
         <Image
             src={imageSrc}
             width={100}
             height={100}
             layout="responsive"
+            className={styles.imageWrapper}
 
 
-            /></div>
+            />
 
 
         <p className={styles.title}>{title}</p>

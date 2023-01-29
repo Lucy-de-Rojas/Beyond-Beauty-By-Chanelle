@@ -3,6 +3,7 @@
 
 import Layout from "../components/layout";
 import Header1 from "../components/header1";
+import styles from '../styles/about.module.css';
 
 
 import ImageBackground from "../components/image-background";
@@ -66,6 +67,11 @@ export default function About() {
 
 
 
+    <h2 className={styles.header2}>Sevices</h2>
+
+
+
+<div className={styles.servicesWrapper}>
 
 
 <AboutServices
@@ -79,6 +85,28 @@ export default function About() {
             imageSrc={dataAbout[1].image}
 />
 
+
+<AboutServices
+            title={dataAbout[2].title}
+            imageSrc={dataAbout[2].image}
+/>
+
+
+
+<AboutServices
+            title={dataAbout[3].title}
+            imageSrc={dataAbout[3].image}
+/>
+
+<AboutServices
+            title={dataAbout[4].title}
+            imageSrc={dataAbout[4].image}
+/>
+
+
+
+
+            </div>
 
 
 
