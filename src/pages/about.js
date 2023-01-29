@@ -6,9 +6,40 @@ import Header1 from "../components/header1";
 
 
 import ImageBackground from "../components/image-background";
+import AboutServices from "@/components/about-services";
+
+
+
+
+
 
 
 export default function About() {
+
+
+
+    const dataAbout = [{
+        image:'/media/about-services/manicure.jpg',
+        title: 'Manicure',
+    }, {
+        image: '/media/about-services/facial.jpg',
+        title: 'Facial',
+    }, {
+        image: '/media/about-services/massage.jpg',
+        title: 'Massage',
+    }, {
+        image: '/media/about-services/pedicure.jpg',
+        title: 'Pedicure',
+    }, {
+        image: '/media/about-services/waxing.jpg',
+        title: 'Waxing',
+    }];
+
+
+
+
+
+
 
     return(<Layout>
 
@@ -22,14 +53,6 @@ export default function About() {
 
 
 
-        {/* <ImageBackground
-            src="/media/unsplash/backgrounds-Portrait1.jpg"
-
-            width={1000}
-            height={1500}
-
-
-        /> */}
 
 
 
@@ -42,7 +65,19 @@ export default function About() {
         />
 
 
-    </Layout>);
+
+
+
+<AboutServices
+            title={dataAbout[0].title}
+            imageSrc={dataAbout[0].image}
+/>
+
+
+<AboutServices
+            title={dataAbout[1].title}
+            imageSrc={dataAbout[1].image}
+/>
 
 
 
@@ -50,4 +85,13 @@ export default function About() {
 
 
 
-};
+
+
+
+
+
+
+
+
+
+    </Layout>);};

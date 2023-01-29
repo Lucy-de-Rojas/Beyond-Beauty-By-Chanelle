@@ -1,0 +1,33 @@
+
+.compWrapper {
+    /* background-color: rgb(102, 229, 102); */
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.imageWrapper {
+
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 0;
+    width: 25%;
+}
+
+
+
+
+.title {
+    background-color: rgb(251, 251, 251);
+    width: 20%;
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+
