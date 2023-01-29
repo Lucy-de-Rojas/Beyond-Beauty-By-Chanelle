@@ -1,19 +1,37 @@
 {
-  "name": "chanelle-beauty2",
+  "name": "chanelle-beauty",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gitPush": "git add . && git commit -m 'home page done' && git push",
+    "upgradeNextReact": "npm i next@latest react@latest react-dom@latest eslint-config-next@latest"
   },
   "dependencies": {
-    "@next/font": "13.1.6",
-    "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
-    "next": "13.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@lucyderojas/menu13-next": "^1.0.8",
+    "@mui/material": "^5.11.3",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@next/font": "13.1.1",
+    "animejs": "^3.2.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "^13.1.5",
+    "hamburger-react": "^2.5.0",
+    "mysql2": "^2.3.3",
+    "next": "^13.1.5",
+    "next-sitemap": "^3.1.44",
+    "react": "^18.2.0",
+    "react-date-picker": "^9.1.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.3",
+    "react-router-dom": "^6.6.1",
+    "styled-components": "^5.3.6"
   }
 }
