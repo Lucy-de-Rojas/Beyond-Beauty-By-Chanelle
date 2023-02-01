@@ -67,11 +67,21 @@ const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefault
 
 <Header1
 text='Contact'
+color="red"
+className={styles.header1}
             />
 
 
+
+
+
+
+
 {/* FORM: */}
-<form onSubmit={handleSubmit(getFormData)}>
+    <form
+        onSubmit={handleSubmit(getFormData)}
+        className={styles.form}
+        >
 
 
 
@@ -97,6 +107,7 @@ text='Contact'
 
             type="email"
             placeholder="email"
+            className={styles.input}
 
 
         />
@@ -120,6 +131,7 @@ text='Contact'
     <textarea
         rows="5"
         placeholder="message"
+        className={styles.input}
 
         {
             ...register("message", {
@@ -165,6 +177,7 @@ text='Contact'
             <input
                 type="submit"
                 value="Submit"
+                className={styles.submit}
                 />
 
 
@@ -174,7 +187,6 @@ text='Contact'
 
 
 </form>
-
 
 
 
