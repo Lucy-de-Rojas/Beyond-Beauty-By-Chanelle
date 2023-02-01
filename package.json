@@ -16,7 +16,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@lucyderojas/menu13-next": "^1.0.8",
+    "@lucyderojas/menu13-next": "^1.0.10",
     "@mui/material": "^5.11.3",
     "@mui/styled-engine-sc": "^5.11.0",
     "@next/font": "13.1.1",
