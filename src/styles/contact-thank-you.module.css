@@ -26,5 +26,6 @@
 
 .bolder {
 font-family: 'mainTHICK';
-/* margin-top: 50px; */
+color: var(--dark);
+font-size: 1.7rem;
 }

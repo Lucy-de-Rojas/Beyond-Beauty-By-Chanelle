@@ -31,7 +31,7 @@ export default function ContactThankYou() {
 
         <Header1
             text="Thank you for contacting us"
-            color="rgb(81, 2, 2)"
+            color="var(--pink)"
 
         />
 
