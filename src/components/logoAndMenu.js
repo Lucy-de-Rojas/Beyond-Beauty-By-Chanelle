@@ -121,7 +121,7 @@ export default function LogoAndMenu() {
 <div className={styles.logoWrapper}>
 <Link href='/'>
         <Image
-            src="/media/logos/beauty-by-chanelle-logo.jpg"
+            src="/media/logos/beauty-by-chanelle-logoROBOTO.jpg"
             width={915}
             height={580}
             layout="responsive"

@@ -1,10 +1,48 @@
 import Layout from "../components/layout";
 import Head from "next/head";
-import LogoAndMenu from "../components/logoAndMenu";
+import styles from '../styles/contact.module.css';
+
+import {useForm} from 'react-hook-form';
+
+
+
 import ImageBackground from "../components/image-background";
+import Header1 from "@/components/header1";
+
+
+
 
 
 export default function Contact() {
+
+
+
+
+// getting data from the form:
+    async function getFormData(data) {
+
+        console.log('form data:>>>> ',data);
+
+
+
+
+    }
+
+
+
+
+
+// form defaults:
+    const formDefaults= {
+        defaultValues: {
+            email: '',
+            message: '',
+        }
+    }
+
+// using form hook:
+const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefaults);
+
 
 
 
@@ -17,9 +55,127 @@ export default function Contact() {
             <title>Contact</title>
         </Head>
 
-        <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait9.jpg'
+
+
+
+
+        <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait4.jpg'
  />
-        <h1>contact</h1>
+
+
+
+
+<Header1
+text='Contact'
+            />
+
+
+{/* FORM: */}
+<form onSubmit={handleSubmit(getFormData)}>
+
+
+
+
+{/* email: */}
+        <input
+            {
+                ...register("email", {
+                    required: {
+                        value: true,
+                        message: 'we do need email, please',
+                    },
+                    minLength: {
+                        value: 3,
+                        message: 'bit too short'
+                    },
+                    maxLength: {
+                        value: 100,
+                        message: 'enter email shorter than this'
+                    }
+                })
+            }
+
+            type="email"
+            placeholder="email"
+
+
+        />
+
+        <p className={styles.errormessage}> {errors.email?.message}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* message: */}
+    <textarea
+        rows="5"
+        placeholder="message"
+
+        {
+            ...register("message", {
+                required: {
+                    value: true,
+                    message: 'we do need some message',
+
+                 },
+                 minLength: {
+                    value: 10,
+                    message: 'at leat 10 characters, please'
+                 },
+                 maxLength: {
+                    value: 1000,
+                    message: 'bit tooo long message'
+                 }
+            }
+            )
+        }
+
+    >
+
+
+
+
+    </textarea>
+    <p className={styles.errormessage}>
+        {errors.message?.message}
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+{/* submit: */}
+
+            <input
+                type="submit"
+                value="Submit"
+                />
+
+
+
+
+
+
+
+</form>
+
+
 
 
 

@@ -11,12 +11,12 @@
 /* main thick: */
 @font-face {
     font-family: 'mainTHICK';
-    src: url('/fonts/logo/SinkinSans-600SemiBold.otf');
+    src: url('../../public/fonts/googleFonts/straight/Roboto-Black.ttf');
 }
 
 @font-face {
     font-family: 'mainTHIN';
-    src: url('/fonts/logo/SinkinSans-100Thin.otf');
+    src: url('../../public/fonts/googleFonts/straight/Roboto-Thin.ttf');
 }
 
 
@@ -24,7 +24,7 @@
 /* curly: */
 @font-face {
     font-family: 'fancyCurly';
-    src: url('/fonts/logo/Jasmine.otf');
+    src: url('/fonts/googleFonts/curly/QwitcherGrypen-Regular.ttf');
 }
 
 
