@@ -83,7 +83,9 @@ const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefault
 
 
         <Head>
-            <title>Contact</title>
+            <title> 🌹
+                Personal care & waxing high wycombe, princess risborough, marlow, leighton buzzard, south buckinghamshire
+</title>
         </Head>
 
 

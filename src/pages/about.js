@@ -1,5 +1,5 @@
 
-
+import Head from "next/head";
 
 import Layout from "../components/layout";
 import Header1 from "../components/header1";
@@ -43,6 +43,13 @@ export default function About() {
 
 
     return(<Layout>
+
+        <Head>
+            <title>  🌷
+            Cosmetic care & massage high wycombe, princess risborough, marlow, leighton buzzard, south buckinghamshire
+
+            </title>
+        </Head>
 
 
         <ImageBackground

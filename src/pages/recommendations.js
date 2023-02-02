@@ -1,11 +1,10 @@
+import Head from "next/head";
+
 
 import Layout from "../components/layout";
 import ImageBackground from "../components/image-background";
-
 import styles from '../styles/recommendations.module.css';
-
 import Recommendation from "@/components/recommendation";
-
 import Header1 from "@/components/header1";
 
 
@@ -23,6 +22,12 @@ export default function Recommendations() {
 
     return (
             <Layout>
+                <Head>
+                    <title> 🌼
+                    Manicure & pedicure high wycombe, princess risborough, marlow, leighton buzzard, south buckinghamshire
+
+                    </title>
+                </Head>
 
 <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait8.jpg' />
 
