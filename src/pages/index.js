@@ -54,7 +54,7 @@ export default function Home() {
                 />
 
 
-<h1>Beauty, cosmetic<br /> <span style={{fontFamily: 'mainTHIN',}}>&</span> personal care</h1>
+<h1 className={styles.header}>Beauty, cosmetic<br /> <span style={{fontFamily: 'mainTHIN',}}>&</span> personal care</h1>
 
 
 
