@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "gitPush": "git add . && git commit -m 'home page done' && git push",
-    "upgradeNextReact": "npm i next@latest react@latest react-dom@latest eslint-config-next@latest"
+    "upgradeNextReact": "npm i next@latest react@latest react-dom@latest eslint-config-next@latest",
+    "postbuild":"next-sitemap"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",

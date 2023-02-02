@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://beyond-beauty-by-chanelle.vercel.app/
+
+# Sitemaps
+Sitemap: https://beyond-beauty-by-chanelle.vercel.app/sitemap.xml
