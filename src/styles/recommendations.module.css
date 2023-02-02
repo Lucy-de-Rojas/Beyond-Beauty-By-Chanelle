@@ -1,6 +1,6 @@
 
 
-/* recommendation component: */
+/* recommendation component: ❗❗❗❗  */
 .recWrapper {
     background-color: rgb(241, 241, 241);
     padding: 20px;
@@ -40,6 +40,28 @@
 
 
 /* PAGE: */
+
+.mainWrapper {
+    /* background-color: red; */
+    background-image: url('/media//unsplash/lowRes/backgrounds-Portrait8NARROW.jpg');
+    background-size: cover;
+
+    padding-top: 20px;
+
+}
+
+/* for pc screen and landscape orient: */
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+    .mainWrapper {
+        /* background-image: url('/media/unsplash/lowRes/backgrounds-Portrait8.jpg'); */
+    }
+
+}
+
+
+
+
+
 
 .columnsWrapper {
     /* background-color: rgba(94, 226, 94, 0.688); */

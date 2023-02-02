@@ -22,6 +22,9 @@ export default function Recommendations() {
 
     return (
             <Layout>
+
+                <div className={styles.mainWrapper}>
+
                 <Head>
                     <title> 🌼
                     Manicure & pedicure high wycombe, princess risborough, marlow, leighton buzzard, south buckinghamshire
@@ -29,7 +32,6 @@ export default function Recommendations() {
                     </title>
                 </Head>
 
-<ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait8.jpg' />
 
 
 
@@ -88,6 +90,7 @@ export default function Recommendations() {
 
 
 
+            </div> {/* end of mainWrapper */}
 
                 </Layout>)
 };
