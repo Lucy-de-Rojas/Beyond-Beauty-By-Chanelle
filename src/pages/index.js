@@ -72,8 +72,10 @@ export default function Home() {
 {/* first comp: */}
         <div style={{
           fontSize:'1.7rem',
+          // width: '90%',
         }}>
             Welcome to<br />
+
             <span style={{
               fontFamily: 'fancyCurly',
               fontSize: '4rem',
@@ -85,6 +87,9 @@ export default function Home() {
 
 
             </div>
+
+
+
 
 
 <br />
