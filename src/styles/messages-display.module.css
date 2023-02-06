@@ -1,0 +1,50 @@
+.wrapper {
+    background-color: rgba(255, 192, 203, 0.579);
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+
+    display: flex;
+
+}
+
+
+
+
+
+.email {
+    /* background-color: rgb(226, 140, 140); */
+    width: 30%;
+    margin-right: 20px;
+    text-align: right;
+}
+
+
+.message {
+    /* background-color: green; */
+    /* width: 70%; */
+
+}
+
+
+
+/* for smaller screen: */
+@media only screen and (max-width: 750px)  {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .email {
+        width: 100%;
+        text-align: center;
+    }
+
+    .message {
+        text-align: center;
+    }
+
+
+
+}
+

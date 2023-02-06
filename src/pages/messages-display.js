@@ -1,7 +1,7 @@
 import Layout from "@/components/layout";
 import Header1 from "@/components/header1";
 import ImageBackground from "@/components/image-background";
-
+import styles from '../styles/messages-display.module.css';
 
 import {useState, useEffect} from 'react'
 
@@ -44,8 +44,21 @@ return (<Layout>
     />
 
 
+
+
+    {/* display messages from DB: */}
     {messages.map((item, index)=>{
-        return <p key={index}>{item.email}: {item.message} </p>;
+        return <p key={index} className={styles.wrapper}>
+
+            <span className={styles.email}>
+                        {item.email}
+            </span>
+            <span className={styles.message}>
+                         {item.message}
+            </span>
+
+
+                          </p>;
 
     })}
 
