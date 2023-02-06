@@ -1,0 +1,28 @@
+
+
+.wrapper {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+.inputBar {
+    box-sizing: border-box;
+    background-color: rgb(106, 243, 104);
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: inset 0px 0px 2px black;
+    font-size: 1.7rem;
+    border-radius: 7px;
+
+}
