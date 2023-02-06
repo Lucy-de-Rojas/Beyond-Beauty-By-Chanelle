@@ -175,10 +175,10 @@ className={styles.header1}
                  },
                  minLength: {
                     value: 10,
-                    message: 'at leat 10 characters, please'
+                    message: `at leat 10 characters, characters, please`
                  },
                  maxLength: {
-                    value: 1000,
+                    value: 2000,
                     message: 'bit tooo long message'
                  }
             }

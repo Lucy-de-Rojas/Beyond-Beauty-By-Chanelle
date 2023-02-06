@@ -9,7 +9,7 @@
     "lint": "next lint",
     "gitPush": "git add . && git commit -m 'home page done' && git push",
     "upgradeNextReact": "npm i next@latest react@latest react-dom@latest eslint-config-next@latest",
-    "postbuild":"next-sitemap"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -28,6 +28,7 @@
     "mysql2": "^2.3.3",
     "next": "^13.1.5",
     "next-sitemap": "^3.1.49",
+    "node-fetch": "^3.3.0",
     "react": "^18.2.0",
     "react-date-picker": "^9.1.0",
     "react-dom": "^18.2.0",
