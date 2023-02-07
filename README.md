@@ -85,7 +85,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     </p>
     <img
     src="./public/media/README/ChanelleSEOLOW.jpg"
-    width="80%"/>
+    width="40%"/>
 
 
 
