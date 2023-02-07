@@ -8,6 +8,7 @@ import SearchBarArchive from "@/components/searchBarArchive";
 
 import {useState, useEffect, useRef} from 'react';
 import Link from "next/link";
+import Head from "next/head";
 
 
 
@@ -82,6 +83,15 @@ export default function MessagesDisplay() {
 
 
 return (<Layout>
+
+
+<Head>
+    <title>✔ Archived Messages Beauty by Chanelle</title>
+</Head>
+
+
+
+
     <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait14.jpg'/>
     <Header1
         text={'Messages Archive: ' + messages.length}
