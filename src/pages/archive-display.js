@@ -6,7 +6,8 @@ import { reinstateMessage } from "@/utils/reinstateMessage";
 
 import SearchBarArchive from "@/components/searchBarArchive";
 
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect, useRef} from 'react';
+import Link from "next/link";
 
 
 
@@ -89,6 +90,9 @@ return (<Layout>
 
 
 
+<Link href="/messages-display">
+<button>Messages</button>
+</Link>
 
 
 <SearchBarArchive handleChange={handleChange} />

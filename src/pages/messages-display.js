@@ -87,8 +87,9 @@ return (<Layout>
         color='red'
     />
 
-
-
+<Link href="/archive-display">
+<button>Archived Messages</button>
+</Link>
 
 
 <SearchBar handleChange={handleChange} />
