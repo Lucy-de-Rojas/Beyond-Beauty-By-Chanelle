@@ -40,6 +40,7 @@
 This project helps to promote business of local beautician Chanelle.
     </p>
 
+<a href="#home">Home</a><br />
 
 
 
@@ -53,6 +54,7 @@ This project helps to promote business of local beautician Chanelle.
 Front end is engineered on NEXT JS and hosted with Vercel.
  </p>
 
+<a href="#home">Home</a><br />
 
 
 
@@ -69,6 +71,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     </p>
 
 
+<a href="#home">Home</a><br />
 
 
 
@@ -87,6 +90,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     src="./public/media/README/ChanelleSEOLOW.jpg"
     width="40%"/>
 
+<a href="#home">Home</a><br />
 
 
 
@@ -122,6 +126,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     src="./public/media/README/hooksLibraries/nodeFetch.jpg"
     width="20%"/><br /><br />
 
+<a href="#home">Home</a><br />
 
 
 
