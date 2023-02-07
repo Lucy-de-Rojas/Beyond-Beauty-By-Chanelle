@@ -105,19 +105,19 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     <br />
       <img
     src="./public/media/README/hooksLibraries/FormHook.jpg"
-    width="20%"/><br /><br />
+    width="20%"/>
      <img
     src="./public/media/README/hooksLibraries/Menu13.jpg"
-    width="20%"/><br /><br />
+    width="20%"/>
      <img
     src="./public/media/README/hooksLibraries/sitemap.jpg"
     width="20%"/><br /><br />
     <img
     src="./public/media/README/hooksLibraries/HamburgerReact.jpg"
-    width="20%"/><br /><br />
+    width="20%"/>
     <img
     src="./public/media/README/hooksLibraries/mysql2.jpg"
-    width="20%"/><br /><br />
+    width="20%"/>
     <img
     src="./public/media/README/hooksLibraries/nodeFetch.jpg"
     width="20%"/><br /><br />
