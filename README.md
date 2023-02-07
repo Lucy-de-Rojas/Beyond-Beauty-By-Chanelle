@@ -33,7 +33,7 @@
 <!-- ABOUT: -->
 <img
     src="./public/media/README/titles/MainTitle.jpg"
-    width="100%"
+    width="60%"
     id="about"
     />
     <p>
@@ -48,7 +48,7 @@ This project helps to promote business of local beautician Chanelle.
 <!-- FRONT END: -->
 <img
     src="./public/media/README/titles/FrontEnd.jpg"
-    width="100%"
+    width="60%"
     id="frontEnd"/>
     <p>
 Front end is engineered on NEXT JS and hosted with Vercel.
@@ -64,7 +64,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 <img
     src="./public/media/README/titles/BackEnd.jpg"
-    width="100%"
+    width="60%"
     id="backEnd"/>
       <p>
     Back end is based on NEXT JS pages/api.
@@ -81,7 +81,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 <!-- SEO: -->
 <img
     src="./public/media/README/titles/SEO.jpg"
-    width="100%"
+    width="60%"
     id="SEO"/>
       <p>
     SEO is planned as chart below:
@@ -102,7 +102,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 <img
     src="./public/media/README/titles/hooksLibraries.jpg"
-    width="100%"
+    width="60%"
     id="hooksAndLibraries"/>
 
 <br />
@@ -137,7 +137,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 <!-- TAKE AWAYS: -->
 <img
     src="./public/media/README/titles/TakeAways.jpg"
-    width="100%"
+    width="60%"
     id="takeAways"/>
       <p>
     Learned to create component library and publish it on npm site. NPM package link to
