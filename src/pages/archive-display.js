@@ -58,7 +58,7 @@ export default function MessagesDisplay() {
         async function getDynamicMessages() {
 
             // set the keyword: 🟥
-            let response = await fetch(`/api/messages-archive/${keyword1}`);
+            let response = await fetch(`/api/archive/${keyword1}`);
             let data = await response.json();
 
             setMessages(data);
