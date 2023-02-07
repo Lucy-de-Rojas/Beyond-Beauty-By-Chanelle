@@ -2,12 +2,11 @@ import Layout from "@/components/layout";
 import Header1 from "@/components/header1";
 import ImageBackground from "@/components/image-background";
 import styles from '../styles/messages-display.module.css';
-import SearchBar from "@/components/searchBar";
-import { archiveMessage } from "@/utils/archiveMessage";
+import { reinstateMessage } from "@/utils/reinstateMessage";
 
+import SearchBarArchive from "@/components/searchBarArchive";
 
-import {useState, useEffect, useRef} from 'react';
-import Link from "next/link";
+import {useState, useEffect, useRef} from 'react'
 
 
 
@@ -20,10 +19,11 @@ export default function MessagesDisplay() {
     // const keyword =useRef('');
 
 
-    // on ipnput change:
+    // on ipnput change for search bar:
     function handleChange(event) {
+        console.clear();
         let data = event.target.value;
-        console.log('data from ipnut:', data);
+        console.log('data from search bar archive>>>>>:', data);
         // keyword.current = data;
         setKeyword1(data);
 
@@ -36,7 +36,7 @@ export default function MessagesDisplay() {
 
         // getting data from '/api/messages-display'  ✅
         async function getMessages() {
-            let response = await fetch('/api/messages-display');
+            let response = await fetch('/api/archive-display');
             let data = await response.json();
 
 
@@ -57,8 +57,8 @@ export default function MessagesDisplay() {
 
         async function getDynamicMessages() {
 
-            // set the keyword: ✅
-            let response = await fetch(`/api/messages/${keyword1}`);
+            // set the keyword: 🟥
+            let response = await fetch(`/api/messages-archive/${keyword1}`);
             let data = await response.json();
 
             setMessages(data);
@@ -83,7 +83,7 @@ export default function MessagesDisplay() {
 return (<Layout>
     <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait14NARROW.jpg'/>
     <Header1
-        text={'Messages: ' + messages.length}
+        text={'Messages Archive: ' + messages.length}
         color='red'
     />
 
@@ -91,7 +91,7 @@ return (<Layout>
 
 
 
-<SearchBar handleChange={handleChange} />
+<SearchBarArchive handleChange={handleChange} />
 
 
 
@@ -105,7 +105,7 @@ return (<Layout>
             <span className={styles.message}>
                          {item.message}
             </span>
-            <button onClick={archiveMessage} id={item.id} >Archive Message</button>
+            <button onClick={reinstateMessage} id={item.id} >Reinstate Message</button>
 
 
                           </p>;
