@@ -67,7 +67,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     width="50%"
     id="backEnd"/>
       <p>
-    Back end is based on NEXT JS pages/api.
+    Back end is based on NEXT JS pages/api. The actual database is running from raspberry pi on my desk.
     </p>
 
 
