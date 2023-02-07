@@ -82,15 +82,18 @@ export default function MessagesDisplay() {
 
 
 return (<Layout>
-    <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait14NARROW.jpg'/>
+    <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait14.jpg'/>
     <Header1
         text={'Messages Archive: ' + messages.length}
-        color='red'
+        color='var(--dark)'
     />
 
 
-
-<Link href="/messages-display">
+{/* link to main messages: */}
+<Link
+    href="/messages-display"
+    className={styles.goToMessagesButton}
+    >
 <button>Messages</button>
 </Link>
 
@@ -109,7 +112,14 @@ return (<Layout>
             <span className={styles.message}>
                          {item.message}
             </span>
-            <button onClick={reinstateMessage} id={item.id} >Reinstate Message</button>
+
+
+
+            <button
+                onClick={reinstateMessage} id={item.id}
+                className={styles.archiveMessageButton}
+
+                >Reinstate Message</button>
 
 
                           </p>;

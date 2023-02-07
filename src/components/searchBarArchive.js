@@ -23,6 +23,11 @@ export default function SearchBarArchive({handleChange}) {
                 placeholder="search archive"
                 onChange={handleChange}
                 autofocus
+                style={{
+                    backgroundColor: 'black',
+                    color: 'white',
+
+                }}
 
             />
 

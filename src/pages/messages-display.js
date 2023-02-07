@@ -84,16 +84,20 @@ return (<Layout>
     <ImageBackground image='/media/unsplash/lowRes/backgrounds-Portrait14NARROW.jpg'/>
     <Header1
         text={'Messages: ' + messages.length}
-        color='red'
+        color='var(--dark)'
     />
 
-<Link href="/archive-display">
-<button>Archived Messages</button>
-</Link>
+
+    {/* Link to archived messages: */}
+    <Link
+        href="/archive-display"
+        className={styles.goToMessagesButton}
+        >
+    <button>See Archived Messages</button>
+    </Link>
 
 
 <SearchBar handleChange={handleChange} />
-
 
 
     {/* display messages from DB: */}
@@ -106,13 +110,18 @@ return (<Layout>
             <span className={styles.message}>
                          {item.message}
             </span>
-            <button onClick={archiveMessage} id={item.id} >Archive Message</button>
+
+
+            <button
+                onClick={archiveMessage}
+                id={item.id}
+                className={styles.archiveMessageButton}
+                >Archive Message</button>
 
 
                           </p>;
 
     })}
-
 
 
 
